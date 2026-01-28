@@ -3,81 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Jai Ragul</title>
+    <title>Jai Ragul D | Web Developer & Software Tester</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <h2 class="logo">Jai Ragul</h2>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+<!-- HERO SECTION -->
+<header class="hero">
+    <h1>Jai Ragul D</h1>
+    <h2>Web Developer & Software Tester</h2>
+    <p>
+        Building responsive web applications and ensuring quality through
+        manual testing and real-world validation.
+    </p>
+    <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+       <a href="./resume/Jai_Ragul_D_Resume.pdf" download>
+  Download Resume
+</a>
+    </div>
+</header>
 
-    <section id="home" class="section home">
-        <h1>Hello, I'm <span class="highlight">Jai Ragul</span></h1>
-        <p>Front-End Developer | HTML | CSS | JavaScript</p>
-        <button class="btn" onclick="scrollToSection('projects')">View My Work</button>
-    </section>
+<!-- ABOUT -->
+<section class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Web Developer and Software Tester with strong knowledge of building
+        responsive web applications and ensuring quality through manual testing.
+        Skilled in HTML, CSS, JavaScript, React, Node.js, and Express.js, with
+        hands-on experience in test case design, BDD scenarios, and bug reporting.
+        Passionate about delivering reliable and user-friendly software.
+    </p>
+</section>
 
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>
-            I am a passionate Front-End Developer with Fairly Strong skills in HTML, CSS, and JavaScript.
-            I enjoy building clean, responsive, and interactive websites.
-        </p>
-    </section>
+<!-- SKILLS -->
+<section class="section bg-light" id="skills">
+    <h2>Skills</h2>
 
-    <section id="skills" class="section">
-        <h2>My Skills</h2>
-
-        <div class="skills-box">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Git & GitHub</div>
-            <div class="skill">Responsive Design</div>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-
-        <div class="project-card">
-            <h3>Diet Planner App</h3>
-            <p>A front-end diet planner with weekly schedule, BMI calculator</p>
-        </div>
-
-        <div class="project-card">
-            <h3>Turf Booking website</h3>
-            <p>A turf Booking system Where Users can check the available slots and book the slots,select timing and conform bookins with clean and responsive UI </p>
+    <div class="skills-grid">
+        <div>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js & Express.js</li>
+                <li>Python</li>
+                <li>C Programming</li>
+                <li>Maunal Testing</li>
+            </ul>
         </div>
 
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>This portfolio showcasing my skills and projects.</p>
+        <div>
+            <h3>Testing Skills</h3>
+            <ul>
+                <li>Manual Testing</li>
+                <li>Test Case Writing</li>
+                <li>BDD Scenarios</li>
+                <li>Functional Testing</li>
+                <li>Cross-Browser Testing</li>
+                <li>Bug Reporting</li>
+            </ul>
         </div>
-    </section>
 
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
+        <div>
+            <h3>Tools</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>VS Code</li>
+            </ul>
+        </div>
 
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+        <div>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-        <p id="form-status"></p>
-    </section>
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+    <h2>Experience</h2>
 
-    <script src="script.js"></script>
+    <div class="card">
+        <h3>Web Development Intern</h3>
+        <p><strong>LITZ TECH, Coimbatore</strong> — July 2025</p>
+        <ul>
+            <li>Developed responsive UI using HTML, CSS, and JavaScript</li>
+            <li>Contributed to React.js dashboard features</li>
+            <li>Optimized application performance</li>
+            <li>Collaborated using Git and GitHub</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section bg-light" id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="card">
+            <h3>Cafe Website</h3>
+            <p>
+                Responsive café website designed to showcase menu items,
+                offers, and seamless customer interaction.
+            </p>
+            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/jairagul28" target="_blank">GitHub</a>
+        </div>
+
+        <div class="card">
+            <h3>Turf Booking</h3>
+            <p>
+                Web-based turf booking platform enabling users to search,
+                reserve, and manage sports grounds efficiently.
+            </p>
+            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/jairagul28" target="_blank">GitHub</a>
+        </div>
+
+        <div class="card">
+            <h3>Movie Ticket Booking</h3>
+            <p>
+                Responsive platform for booking movie tickets with real-time
+                show and seat availability.
+            </p>
+            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/jairagul28" target="_blank">GitHub</a>
+        </div>
+
+        <div class="card">
+            <h3>Library Book Management</h3>
+            <p>
+                Full-stack CRUD system for managing library books and records.
+            </p>
+            <p><strong>Tech Stack:</strong> Node.js, Express.js</p>
+            <a href="https://github.com/jairagul28" target="_blank">GitHub</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- TESTING EXPERIENCE -->
+<section class="section" id="testing">
+    <h2>Testing Experience</h2>
+    <ul>
+        <li>Wrote test cases for academic and personal projects</li>
+        <li>Created BDD scenarios</li>
+        <li>Performed manual testing for functionality and input validation</li>
+        <li>Tested applications across browsers and devices</li>
+    </ul>
+</section>
+
+<!-- EDUCATION -->
+<section class="section bg-light" id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>B.E. Computer Science and Engineering</h3>
+        <p>NSCET, Theni</p>
+        <p>2023 – 2027 (Expected)</p>
+        <p><strong>CGPA:</strong> 8.1 (up to 4th semester)</p>
+    </div>
+
+    <div class="card">
+        <h3>HSC</h3>
+        <p>Mary Matha Matric School, Theni</p>
+        <p>2023 — 76%</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<footer class="footer">
+    <h2>Contact</h2>
+    <p>📞 +91 9043624840</p>
+    <p>📧 jairaguldhanapal@gmail.com</p>
+    <p>
+        <a href="https://github.com/jairagul28" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/-jai-ragul-57067b2a3" target="_blank">LinkedIn</a>
+    </p>
+    <p class="footer-text">Open to internships, projects, and collaborations.</p>
+</footer>
+
 </body>
 </html>
